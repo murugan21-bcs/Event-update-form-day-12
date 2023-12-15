@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
 </head>
-<body>
-  <link rel="stylesheet" href="script.js">
-  <p>hello</p>
+<h3>Event1</h3><br>
+<h5>Number of avaiable seats: 23</h5>
+<body style="border: 3px solid;">
+    
+    <div class="container">
+    <div class="row">
+    <div class="col-4">
+      <div>
+         <img style="border: 2px solid,;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHiVliaQRyvgNR-kREyIw-Wymen62GKhibow&usqp=CAU..." class="rounded-circle" alt="...">
+      </div> 
+    </div>
+    <div class="col-8">
+        <div style="padding-top:  80px;"  class="form-group row">
+            <label style="left:105px;" class="col-sm-2 col-form-label">Name  :</label>
+            <div style="left: 40px;" class="col-lg-8">
+              <input type="text" class="form-control" >
+            </div>
+          </div>
+          <div class="form-group row">
+            <label style="left: 108px;" for="inputEmail3" class="col-sm-2 col-form-label">Email  :</label>
+            <div style="left: 40px;" class="col-lg-8">
+              <input type="email" class="form-control" id="inputEmail3">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label style="left:80px ;" for="inputEmail3" class="col-sm-2 col-form-label">phone no :</label>
+            <div style="left: 40px;" class="col-lg-8">
+              <input type="number" class="form-control" id="inputEmail3">
+            </div>
+          </div>
+          <div class="form-group row">
+          <label style="left: 30px;" for="number" class="col-sm-3 col-form-label">Number of seats :</label>   
+          <div style="right:22px;" class="col-lg-4">
+            <input   type="number" class="custom-select" >
+            <option selected disabled value="choose..."></option>
+        </div> 
+          </div>
+          <div class="form-group row">
+            <label style="right: 13px;" for="inputtext" class="col-sm-4 col-form-label">Name of attendence 2  : </label>
+            <div style="right: 87px;" class="col-lg-8">
+                <input type="text" class="form-control">
+
+            </div>
+          </div><br>
+          <div style="left: 90px;" class="col-auto my-1">
+          <button type="submit" class="btn btn-primary my-1">Submit</button>
+          </div>
+          <div style="left: 300px;" class="col-sm-3 my-1">
+           <button type="button" class="btn btn-primary my-1">cancel</button>
+          </div>
+        
+    </div>
+    </div>
+    </div>
+    
+
 </body>
 </html>
